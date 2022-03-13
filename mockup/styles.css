@@ -11,6 +11,16 @@
 
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-block: 0;
+}
+
 h2 {
     font-family: var(--oswald);
     font-size: 50px;
@@ -48,6 +58,8 @@ h6 {
     font-size: 17px;
     line-height: 34px;
     text-align: right;
+    max-width: 10ch;
+    /* to get the dates to wrap */
 }
 
 p {
@@ -58,6 +70,10 @@ p {
 }
 
 /* section styles */
+.content-container {
+    padding: 0 30px;
+}
+
 .header {
     display: flex;
     flex-flow: column wrap;
@@ -65,13 +81,26 @@ p {
     background-color: var(--header-color);
     color: var(--light-text-color);
     min-height: 514px;
-    padding: 0 30px;
+
 }
 
 .details {
     color: var(--dark-text-color);
 }
 
+.week-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.week-topic section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
 @media only screen and (min-width: 475px) {
     /*table styles  */
