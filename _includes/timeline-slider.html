@@ -1,22 +1,25 @@
 <div class="content-container details">
+    {% for week in site.date.timeline-overview %}
     <div class="slider"></div>
     <div class="week-info-container">
-        <h4 class="week-number">WEEK 4</h4>
-        <h6 class="week-dates">July 29 - Aug 2</h5>
+        <h4 class="week-number">{{week.week-number}}</h4>
+        <h6 class="week-dates">{{week.week-dates}}</h5>
     </div>
     <div class="week-topics-container">
+        {% for topic in week %}
         <article class="week-topic">
             <section>
-                <h5 class="week-topic-title">Continue Data Exploration</h5>
+                <h5 class="week-topic-title">{{topic.week-topic-title}}</h5>
+
+                {% assign week-topic-date = topic.week-topic-date %}
+                {% if week-topic-date %}
+                <h6 class="week-topic-date">{{week-topic-date}}</h6>
+                {% endif %}
+
             </section>
-            <p class="week-topic-blurb">Teams continue to explore available data sets</p>
+            <p class="week-topic-blurb">{{topic.week-topic-blurb}}</p>
         </article>
-        <article class="week-topic">
-            <section>
-                <h5 class="week-topic-title">Data Dive Milestone</h5>
-                <h6 class="week-topic-date">Aug 1</h6>
-            </section>
-            <p class="week-topic-blurb">Teams join the virtual milestone to hear from data stewards and  ask questions on available data sets</p>
-        </article>
+        {% endfor %}
     </div>
+    {% endfor %}
 </div>
