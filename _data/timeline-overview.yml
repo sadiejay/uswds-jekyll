@@ -1,0 +1,78 @@
+- week-number: Week 0
+  week-dates: July 1 - July 5
+  - week-topic-title: Join our Slack Community
+    week-topic-blurb: New to Slack? Check out this page to get some tips on getting started.
+   - week-topic-title: -Optional User Engagement Workshop in Chicago
+   - week-topic-date: (7/2)
+   - week-topic-blurb: Join an incredible group of TOP participants in an interactive workshop to get a deeper understanding of how the program will unfold, and a preview of the next 12 weeks.
+
+
+- week-number: Week 1
+  week-dates: July 8 - July 12
+  - week-topic-title: Problem Statement Orientation
+    week-topic-blurb: Dive into the weeds about your problem statement, and get more information about the goals of each challenge.
+  - week-topic-title: User Research
+    week-topic-blurb: In parallel to learning about the problem statements, learn more about the communities that are most affected by them and what their experiences, needs and challenges are like
+
+- week-number: Week 2
+  week-dates: July 15 - July 19
+  - week-topic-title: User Research Milestone
+  - week-topic-date: (7/18)
+    week-topic-blurb: Teams join the virtual milestone to share findings from user research that will inform the design of their product, and connect with user advocates to get feedback
+
+- week-number: Week 3
+  week-dates: July 22 - July 26
+  - week-topic-title: User Research + Data Exploration
+    week-topic-blurb: Teams continue to conduct user research and begin to explore available data sets
+
+- week-number: Week 4
+  week-dates: July 29 - August 2
+  - week-topic-title: Continue Data Exploration
+    week-topic-blurb: Teams continue to explore available data sets
+  - week-topic-title: Data Dive Milestone
+    - week-topic-date: (8/1)
+    week-topic-blurb: Teams join the virtual milestone to hear from data stewards and ask questions on available data sets
+
+- week-number: Week 5
+  week-dates: August 5 - August 9
+  - week-topic-title: Data Exploration & Product Development
+    week-topic-blurb: Teams explore available data sets, connect with data stewards, and begin scoping/developing products 
+
+- week-number: Week 6
+  week-dates: August 12 - August 16
+  - week-topic-title: Alpha Demo Milestone
+    week-topic-date: (8/15)
+    week-topic-blurb: Participants come together for a virtual demo of the tools in progress. Teams share concepts and wireframes, and get feedback from user advocates, data stewards, and product experts.
+
+
+- week-number: Week 7
+  week-dates: August 19 - August 23
+  - week-topic-title: Product Development & User Testing
+    week-topic-blurb: Teams continue building products and collect user feedback
+
+
+- week-number: Week 8
+  week-dates: August 26 - August 30
+  - week-topic-title: Beta Demos Milestone
+    week-topic-date: (8/29)
+    week-topic-blurb: Teams come together to showcase and share feedback on more mature versions of their products. Typically, tools have reached at least wireframes and have some functioning features.
+
+
+- week-number: Week 9
+  week-dates: September 2 - September 6
+  - week-topic-title: Product Development & User Testing
+    week-topic-blurb: Teams continue building products and conduct user testing
+  - week-topic-title: Labor Day - 
+      week-topic-date: Sept 2nd
+
+
+- week-number: Week 10
+  week-dates: September 16 - September 20
+  - week-topic-title: Product Development
+    week-topic-blurb: Teams continue building prototypes/products
+
+
+- week-number: Week 11
+  week-dates: September 23 - September 27
+  - week-topic-title: Present final MVPs
+    week-topic-blurb: Teams share MVP with TOP team prior to collective rollout
