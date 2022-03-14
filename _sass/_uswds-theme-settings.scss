@@ -135,10 +135,18 @@ p {
     h6 {
         max-width: 35ch;
     }
+
+    .content-card {
+        padding: 24px 65px 48px;
+    }
 }
 
 @media only screen and (min-width: 1920px) {
     main {
         max-width: 1355px;
+    }
+
+    .content-card {
+        padding: 30px 70px 40px;
     }
 }
