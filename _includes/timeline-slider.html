@@ -1,25 +1,27 @@
 <div class="content-container details">
-    {% for week in site.data.timeline-overview %}
     <div class="slider"></div>
-    <div class="week-info-container">
-        <h4 class="week-number">{{week.week-number}}</h4>
-        <h6 class="week-dates">{{week.week-dates}}</h6>
-    </div>
-    <div class="week-topics-container">
-        {% for topic in week.week-topic-content %}
-        <article class="week-topic">
-            <section>
-                <h5 class="week-topic-title">{{topic.week-topic-title}}</h5>
+    {% for week in site.data.timeline-overview %}
+    <div class="content-card">
+        <div class="week-info-container">
+            <h4 class="week-number">{{week.week-number}}</h4>
+            <h6 class="week-dates">{{week.week-dates}}</h6>
+        </div>
+        <div class="week-topics-container">
+            {% for topic in week.week-topic-content %}
+            <article class="week-topic">
+                <section>
+                    <h5 class="week-topic-title">{{topic.week-topic-title}}</h5>
 
-                {% assign week-topic-date = topic.week-topic-date %}
-                {% if week-topic-date %}
-                <h6 class="week-topic-date">{{week-topic-date}}</h6>
-                {% endif %}
+                    {% assign week-topic-date = topic.week-topic-date %}
+                    {% if week-topic-date %}
+                    <h6 class="week-topic-date">{{week-topic-date}}</h6>
+                    {% endif %}
 
-            </section>
-            <p class="week-topic-blurb">{{topic.week-topic-blurb}}</p>
-        </article>
-        {% endfor %}
-    </div>
+                </section>
+                <p class="week-topic-blurb">{{topic.week-topic-blurb}}</p>
+            </article>
+            {% endfor %}
+        </div>
+    </div>  
     {% endfor %}
 </div>
