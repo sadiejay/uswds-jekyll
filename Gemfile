@@ -5,3 +5,5 @@ group :jekyll_plugins do
   # Only put the optional plugins here. Required plugins should go in the gemspec.
   gem 'jekyll-last-modified-at', '>= 1.3.0'
 end
+
+gem "webrick", "~> 1.7"
