@@ -24,11 +24,14 @@ This is a solution to the [COIL take home challenge](#).
 Create a new page and implement the design, using best practices to make the content simple to update and modular (e.g., we should be able to use the info about participants elsewhere in the site). 
 ### Screenshot
 ### Mobile view
+![Screen Shot 2022-03-14 at 06 31 53](https://user-images.githubusercontent.com/19538219/158167288-12a2a675-e034-4915-8008-cb81dd5928ef.png)
 
 ### Tablet view
+![Screen Shot 2022-03-14 at 06 31 39](https://user-images.githubusercontent.com/19538219/158167337-54933342-dbb0-4099-98b3-c94bbe6b6e47.png)
 
 
 ### Desktop view
+![Screenshot 2022-03-14 at 06-31-19 This is the site title](https://user-images.githubusercontent.com/19538219/158167391-a875372d-ee07-42bd-8f74-6d3154de8102.png)
 
 
 
