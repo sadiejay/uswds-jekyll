@@ -1,5 +1,5 @@
 ---
-title: Timeline
+title: 
 permalink: /
 
 layout: page
