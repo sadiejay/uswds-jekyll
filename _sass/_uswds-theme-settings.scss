@@ -1,3 +1,135 @@
+/* global styles */
+:root {
+    --light-text-color: hsla(0, 0%, 100%, 1);
+    --dark-text-color: hsla(0, 0%, 0%, 1);
+    --accent-color: hsla(46, 100%, 50%, 1);
+    --border-color: hsla(0, 0%, 90%, 1);
+    --header-color: hsla(219, 100%, 49%, 1);
+    --oswald: 'Oswald', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-block: 0px;
+}
+
+h2 {
+    font-family: var(--oswald);
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.dates {
+    font-family: var(--roboto-mono);
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 11px;
+}
+
+.blurb {
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+}
+
+h4 {
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+h5 {
+    font-family: var(--roboto);
+    font-size: 23px;
+    line-height: 34px;
+}
+
+h6 {
+    font-family: var(--roboto-mono);
+    font-size: 17px;
+    line-height: 34px;
+    text-align: right;
+    max-width: 10ch;
+    /* to get the dates to wrap */
+}
+
+p {
+    font-family: var(--roboto);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+/* section styles */
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .content-container {
-    background-color: blue;
+    padding: 0 30px;
+}
+
+.header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: var(--header-color);
+    color: var(--light-text-color);
+    min-height: 514px;
+
+}
+
+.details {
+    color: var(--dark-text-color);
+}
+
+.slider {
+    min-height: 90px;
+}
+
+.week-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: var(--border-color) 1px solid ;
+    border-top: var(--accent-color) 1px solid;
+}
+
+.week-topic {
+    padding-top: 30px;
+}
+
+.week-topic section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// media queries
+
+@media only screen and (min-width: 950px) {
+    h6 {
+        max-width: 35ch;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    main {
+        max-width: 1355px;
+    }
 }
